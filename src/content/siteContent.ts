@@ -34,7 +34,7 @@ export const siteContent = {
   heroDescription:
     "A native macOS privacy guard for sensitive desktop work. PeekSentry stays local, detects nearby risk signals, and reacts with a configurable privacy overlay, evidence snapshots, and low-disruption alerts.",
   storeBadge: "Offline-first · Native macOS · App Store ready",
-  supportEmail: "support@your-domain.com",
+  supportEmail: "2386767757@qq.com",
   updatedAt: "2026-06-12",
   marketingHighlights: [
     "Local face-count awareness",
