@@ -35,17 +35,15 @@ jobs:
           cache-dependency-path: package-lock.json
 
       - name: Install dependencies
-        working-directory: marketing_site
         run: npm install
 
       - name: Build site
-        working-directory: marketing_site
         run: npm run build
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: marketing_site/dist
+          path: dist
 
   deploy:
     environment:
